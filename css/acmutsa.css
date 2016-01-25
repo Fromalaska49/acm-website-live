@@ -263,6 +263,7 @@ a:focus {
 
 .content-section {
     padding-top: 10px;
+    padding-bottom: 75px;
 }
 
 .events-section {
@@ -282,6 +283,7 @@ a:focus {
     width: 100%;
     max-height: 700px;
     background-color: #0C2340;
+    padding-bottom: 75px;
 }
 
 .info-item{
