@@ -15,6 +15,11 @@ html {
     height: 100%;
 }
 
+hr {
+    background-color: #0c2340;
+    border-color: #0c2340;
+}
+
 h1,
 h2,
 h3,
@@ -272,12 +277,23 @@ a:focus {
     -o-background-size: cover;
 }
 
-
 #calendar {
     max-width: 1200px;
     width: 100%;
     max-height: 700px;
     background-color: #0C2340;
+}
+
+.info-item{
+    margin-bottom: 25px;
+}
+.acminfo{
+    font-size: 1000px;
+    text-align: center;
+}
+
+.acminfo a {
+    font-size: 100px;
 }
 
 #contact {
@@ -349,10 +365,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding-top: 15px;
-}
-
-footer p {
+    padding-top: 25px;
 }
 
 ::-moz-selection {
