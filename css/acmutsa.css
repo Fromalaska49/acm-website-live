@@ -148,7 +148,6 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/Jumbotron.jpg) no-repeat bottom center scroll;
@@ -263,19 +262,12 @@ a:focus {
 
 .content-section {
     padding-top: 10px;
-    padding-bottom: 75px;
 }
 
-.events-section {
+.involvement-section {
     width: 100%;
-    padding: 50px 0;
     color: #000;
-    /* background: url(../img/ClassroomLight.jpg) no-repeat center center scroll; */
     background-color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #calendar {
@@ -283,7 +275,6 @@ a:focus {
     width: 100%;
     max-height: 700px;
     background-color: #0C2340;
-    padding-bottom: 75px;
 }
 
 .info-item{
@@ -301,7 +292,6 @@ a:focus {
 #contact {
     width: 100%;
     margin-top: 75px;
-    padding-bottom: 75px;
     background-color: #fff;
     color: #000;
 }
@@ -311,7 +301,7 @@ a:focus {
         padding-top: 75px;
     }
 
-    .events-section {
+    .involvement-section {
         padding: 75px 0;
     }
 
