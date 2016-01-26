@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <title>The Association for Computing Machinery at UTSA</title>
 
     <!-- Bootstrap CSS -->
@@ -26,13 +26,13 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -90,20 +90,48 @@
                 </div>
             </div>
         </div>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-xs-8">
                 <h1>Who are we?</h1>
 		<p> We are The University of Texas at San Antonio student chapter of ACM. The Association for Computing Machinery is the largest international society for educational and scientific computing. What we are not, though, is just your ordinary computer science club, instead we invite any student that has a passion for technology to join our growing community. Our aim is to build a network not only between our members, but to also incorporate our professional connections. This interaction helps us achieve one of our goals by creating opportunities to prepare our members for the prosperous careers we know are ahead of them. </p>
 	    	<h1>What is our mission?</h1>
 		<p> Understanding that academics isn’t everything, we established ACM at UTSA with one thing in mind. We wanted to offer our members a network that could extend beyond their careers. We wanted an organization that produced real change in the community and an association that connected our ACM family with the world. Participating in hackathons, mentoring future students, and hosting tech talks are only the beginning to our legacy. Our mission is to excel academically, professionally, and socially. </p>
             <br><br>
 	    </div>
+
+            <div class="col-xs-4">
+                <div class="media">
+                    <h1>Media</h1>
+                </div>
+            </div>
+            <!-- media content -->
+                <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=557719497713579";
+                    fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-page" data-href="https://www.facebook.com/ACM-UTSA-424006151132274" data-tabs="timeline" data-width="400" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+                </div>
         </div>
     </section>
+
+    <!-- Upcoming events section -->
+    <section id="events" class="text-center">
+            <div class="container events-section">
+                <div class="row">
+                   <h1>Spring 2016 Key Events</h1>
+                </div>
+            </div>
+    </section>
+
 
     <!-- Events Section -->
     <section id="involvement" class="text-center">

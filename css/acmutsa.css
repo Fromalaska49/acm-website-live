@@ -64,6 +64,9 @@ a:focus {
 .light {
     font-weight: 400;
 }
+.media {
+    text-align: center;
+}
 
 .navbar-custom {
     margin-bottom: 0;
