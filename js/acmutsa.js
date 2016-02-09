@@ -26,3 +26,8 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Controls how fast the carousel changes slides
+$('.carousel').carousel({  
+      interval: 15000 // in milliseconds  
+})
