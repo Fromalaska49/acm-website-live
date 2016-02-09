@@ -29,5 +29,5 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Controls how fast the carousel changes slides
 $('.carousel').carousel({  
-      interval: 15000 // in milliseconds  
+      interval: 20000 // in milliseconds  
 })

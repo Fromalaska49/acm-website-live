@@ -34,6 +34,13 @@ h6 {
     letter-spacing: 1px;
 }
 
+h1 hr {
+    color: #f15a22;            /* IE7+              */
+    border-color: #f15a22;     /* chrome and safari */ 
+    background-color: #f15a22; /* firefox and opera */
+    max-width: 900px;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -60,6 +67,35 @@ a:focus {
     text-decoration: none;
     color: #0c2340;
 }
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+.carousel-inner {
+    margin-bottom: 50px;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+.item {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 141px;
+  padding-right: 141px;
+}
+.item span {
+  font-style: normal;
+}
+
 
 .light {
     font-weight: 400;
