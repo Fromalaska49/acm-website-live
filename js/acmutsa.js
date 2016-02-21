@@ -27,7 +27,20 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// Activate Carousel
+$("#myCarousel").carousel();
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+    $("#myCarousel").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+});
+
 // Controls how fast the carousel changes slides
 $('.carousel').carousel({  
-      interval: 20000 // in milliseconds  
+      interval: 25000 // in milliseconds  
 })
