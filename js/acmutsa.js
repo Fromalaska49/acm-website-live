@@ -44,3 +44,5 @@ $(".left").click(function(){
 $('.carousel').carousel({  
       interval: 25000 // in milliseconds  
 })
+
+$('.modal').modal('show');

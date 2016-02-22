@@ -419,10 +419,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #f15a22;
     outline: 0;
     color: #fff;
-    background-color: #0c2340;
+    /*background-color: #0c2340;*/
 }
 
 ul.banner-social-buttons {
@@ -473,4 +473,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 15% !important;
+}
+
+.modal .modal-body {
+    color: #23527c;
+}
+
+.modal .modal-body p {
+    font-size: medium;
 }
